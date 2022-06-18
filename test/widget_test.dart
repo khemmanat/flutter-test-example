@@ -12,6 +12,8 @@ import 'package:flutter_test_example/main.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
+    // final actionIncrement = find.byKey(ValueKey("increment"));
+    
     // Build our app and trigger a frame.
     await tester.pumpWidget(const MyApp());
 
